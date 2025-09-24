@@ -35,7 +35,7 @@ export default function ContactScreen() {
         </View>
       </View>
 
-      <TouchableOpacity style={styles.donateButton} onPress={() => openLink('Link do site')}>
+      <TouchableOpacity style={styles.donateButton} onPress={() => openLink('https://www.youtube.com/watch?v=MYwtZt3mBwA')}>
         <Text style={styles.donateButtonText}>Faça uma Doação</Text>
       </TouchableOpacity>
     </ScrollView>
