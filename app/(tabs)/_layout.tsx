@@ -7,7 +7,7 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: '#007AFF', 
+        tabBarActiveTintColor: '#314659', 
         tabBarInactiveTintColor: 'gray',   
         tabBarStyle: {
           backgroundColor: '#FFFFFF', 
@@ -19,7 +19,7 @@ export default function TabLayout() {
           marginBottom: Platform.OS === 'ios' ? -10 : 5, 
         },
         headerStyle: {
-          backgroundColor: '#007AFF', 
+          backgroundColor: '#314659', 
         },
         headerTintColor: '#fff', 
         headerTitleStyle: {

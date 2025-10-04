@@ -6,22 +6,20 @@ export default function HomeScreen() {
     <ScrollView style={styles.container}>
       <View style={styles.header}>
         <Image
-          source={{ uri: 'https://placehold.co/120x120/007AFF/FFFFFF?text=ONG' }}
+          source={require('../../assets/images/LogoOng.png')} 
           style={styles.logo}
         />
         <Text style={styles.title}>Bem-vindo à Rosa dos Ventos!</Text>
         <Text style={styles.subtitle}>Juntos, podemos fazer a diferença.</Text>
       </View>
       <View style={styles.content}>
+        <Text style={styles.contentTitle}>Quem Somos?</Text>
+        <Text style={styles.contentText}>
+         A Rosa dos Ventos é uma entidade criada em 2001 por alunos de Turismo da Escola de Comunicações e Artes da Universidade de São Paulo (ECA-USP).
+        </Text>
         <Text style={styles.contentTitle}>Nossa Missão</Text>
         <Text style={styles.contentText}>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </Text>
-        <Text style={styles.contentTitle}>Como você pode ajudar?</Text>
-        <Text style={styles.contentText}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          O objetivo principal do projeto é proporcionar lazer por meio de passeios e atividades para pessoas em situação de vulnerabilidade social, especialmente crianças e idosos.
         </Text>
       </View>
     </ScrollView>
@@ -31,11 +29,11 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f0f4f8',
+    backgroundColor: '#fff',
   },
   header: {
-    backgroundColor: '#007AFF',
-    padding: 30,
+    backgroundColor: '#314659',
+    padding: 15,
     alignItems: 'center',
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
@@ -46,7 +44,7 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     marginBottom: 15,
     borderWidth: 3,
-    borderColor: '#fff',
+    borderColor: '#99CAD6',
   },
   title: {
     fontSize: 28,
